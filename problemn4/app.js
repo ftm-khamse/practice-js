@@ -11,4 +11,4 @@ function largestNumIndex(arr){
    
    
 }
-largestNumIndex([10,9,8,2,5,4,7]);
+largestNumIndex([1,9,8,2,5,4,7]);
