@@ -8,6 +8,8 @@ function objectToArray(obj){
     
 }
 
+// we can use Object.entries(obj) thats a simple and clear way
+
 objectToArray({
     name:"fatemeh",
     address:'tehran',
