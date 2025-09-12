@@ -15,4 +15,22 @@ function evenOddChecker(num){
     (num%2)=== 0 ? console.log('Even'):console.log('Odd');
 }
 
-evenOddChecker(3)
+// evenOddChecker(3)
+
+function findMinMax(arr){
+  let max = 0 ;
+  let min = arr[0];
+  arr.forEach((num) =>{
+    if(num >= max){
+        max = num ;
+    }
+    else if(num <= min){
+        min = num ;
+    }
+  });
+
+  console.log(`Min:${min} , Max:${max}`);
+  
+}
+
+findMinMax([-1,2,-3,4,15,5,7])
