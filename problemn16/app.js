@@ -9,4 +9,10 @@ function randomNumber(max,min){
     console.log(Math.floor(Math.random() * (max-min)) + min);
     
 }
-randomNumber(14,2)
+// randomNumber(14,2)
+
+function evenOddChecker(num){
+    (num%2)=== 0 ? console.log('Even'):console.log('Odd');
+}
+
+evenOddChecker(3)
