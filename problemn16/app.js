@@ -33,4 +33,29 @@ function findMinMax(arr){
   
 }
 
-findMinMax([-1,2,-3,4,15,5,7])
+// findMinMax([-1,2,-3,4,15 ,5,7])
+
+function validParentheses(str){
+    let answer = false;
+    if(str.includes('(')){
+        if(str.includes('()')){
+            answer = true;
+        }else{answer = false}
+    }
+    if(str.includes('[')){
+        if(str.includes('[]')){
+            answer = true;
+        }else{answer = false}
+    }
+     if(str.includes('{')){
+        if(str.includes('{}')){
+            answer = true;
+        }else{answer = false}
+    }
+
+    console.log(answer);
+    
+    
+}
+
+validParentheses('()[]{}')
