@@ -82,3 +82,17 @@ function sevenBoom(arr){
 }
 
 // sevenBoom([1,2,3,4,5,6,7])
+
+function reverseSrting(str){
+    let arr = [];
+    let j = 0 ;
+    for(let i=str.length-1;i>=0;i--){
+        arr[j] = str[i];
+        j++;
+    }
+    let newStr = arr.join("");
+    console.log(newStr);
+    
+}
+
+reverseSrting('fatemeh')

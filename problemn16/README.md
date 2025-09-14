@@ -44,3 +44,7 @@ Write a function that takes a radius 'r' and a angle 'theta' in DEGREES and retu
 # problem 24 
 
 Create a function that takes an array of numbers and return "Boom!" if the digit 7 appears in the array. Otherwise, return "there is no 7 in the array".
+
+# Problem 25
+
+Create a function that takes a string as input and returns the reversed version of the string without using the built-in reverse() method.
