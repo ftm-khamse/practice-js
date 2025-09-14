@@ -48,3 +48,7 @@ Create a function that takes an array of numbers and return "Boom!" if the digit
 # Problem 25
 
 Create a function that takes a string as input and returns the reversed version of the string without using the built-in reverse() method.
+
+# problem 26
+
+You are at a restaurant, and you want to calculate the tip for your meal. Write a JavaScript function called calculateTip that takes two inputs: the total cost of the meal and the tip percentage.Your function should calculate the tip amount and return it.

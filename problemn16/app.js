@@ -95,4 +95,12 @@ function reverseSrting(str){
     
 }
 
-reverseSrting('fatemeh')
+// reverseSrting('fatemeh')
+
+function calculateTip(price,tip){
+    let total = (price*tip)/100;
+    console.log(`$ ${total}`);
+    
+}
+
+calculateTip(50,15)
