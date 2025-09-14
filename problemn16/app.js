@@ -58,4 +58,14 @@ function validParentheses(str){
     
 }
 
-validParentheses('()[]{}')
+// validParentheses('()[]{}')
+
+function circularArc(radius,theta){
+    let r = radius;
+    let deg = theta;
+     let arc = (deg * (2*(Math.PI)*r))/360;
+     console.log(arc.toFixed(3));
+     
+}
+
+circularArc(2,30)
