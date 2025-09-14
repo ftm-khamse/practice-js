@@ -68,4 +68,17 @@ function circularArc(radius,theta){
      
 }
 
-circularArc(2,30)
+// circularArc(2,30)
+
+function sevenBoom(arr){
+    if(arr.includes(7)){
+        console.log('Boom !');
+        
+    }else{
+
+        console.log('there is no seven in the array');
+        
+    }
+}
+
+// sevenBoom([1,2,3,4,5,6,7])
