@@ -103,4 +103,14 @@ function calculateTip(price,tip){
     
 }
 
-calculateTip(50,15)
+// calculateTip(50,15)
+
+function fileExtension(str){
+    let arr = str.split('.');
+    let i = (arr.length)-1;
+    console.log(arr[i]);
+    
+    
+}
+
+fileExtension('app.js')

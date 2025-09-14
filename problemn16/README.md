@@ -52,3 +52,7 @@ Create a function that takes a string as input and returns the reversed version 
 # problem 26
 
 You are at a restaurant, and you want to calculate the tip for your meal. Write a JavaScript function called calculateTip that takes two inputs: the total cost of the meal and the tip percentage.Your function should calculate the tip amount and return it.
+
+# Problem 27
+
+Write a function that takes a string and returns the file extension, which is the string after the last dot (.) in the string. If there is no dot in the string, return empty string.
